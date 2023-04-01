@@ -1,0 +1,415 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\LEARNING_EF_CORE_WITH_SQLITE\\LEARNING_EF_CORE_WITH_SQLITE.csproj": {}
+  },
+  "projects": {
+    "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Azx\\Azx.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Azx\\Azx.csproj",
+        "projectName": "Azx",
+        "projectPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Azx\\Azx.csproj",
+        "packagesPath": "C:\\Users\\Ali-Azimzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Azx\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ali-Azimzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/BkOlPaJ5gmMaoDJ3mp4bT3UbkYOUlJcHQZHyZPxYnyNb9MTlyD/api": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Ali-Azimzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ali-Azimzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/BkOlPaJ5gmMaoDJ3mp4bT3UbkYOUlJcHQZHyZPxYnyNb9MTlyD/api": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Resources\\Resources.csproj": {
+                "projectPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Resources\\Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\LEARNING_EF_CORE_WITH_SQLITE\\LEARNING_EF_CORE_WITH_SQLITE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\LEARNING_EF_CORE_WITH_SQLITE\\LEARNING_EF_CORE_WITH_SQLITE.csproj",
+        "projectName": "LEARNING_EF_CORE_WITH_SQLITE",
+        "projectPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\LEARNING_EF_CORE_WITH_SQLITE\\LEARNING_EF_CORE_WITH_SQLITE.csproj",
+        "packagesPath": "C:\\Users\\Ali-Azimzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\LEARNING_EF_CORE_WITH_SQLITE\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ali-Azimzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/BkOlPaJ5gmMaoDJ3mp4bT3UbkYOUlJcHQZHyZPxYnyNb9MTlyD/api": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Azx\\Azx.csproj": {
+                "projectPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Azx\\Azx.csproj"
+              },
+              "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Domain\\Domain.csproj"
+              },
+              "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Persistence\\Persistence.csproj"
+              },
+              "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Resources\\Resources.csproj": {
+                "projectPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Resources\\Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "ReportViewerCore.NETCore": {
+              "target": "Package",
+              "version": "[15.1.17, )"
+            },
+            "ReportViewerCore.WinForms": {
+              "target": "Package",
+              "version": "[15.1.17, )"
+            },
+            "System.Data.Odbc": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Ali-Azimzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ali-Azimzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/BkOlPaJ5gmMaoDJ3mp4bT3UbkYOUlJcHQZHyZPxYnyNb9MTlyD/api": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Resources\\Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Resources\\Resources.csproj",
+        "projectName": "Resources",
+        "projectPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Resources\\Resources.csproj",
+        "packagesPath": "C:\\Users\\Ali-Azimzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\MyFolder\\MyLearning\\C# - Courses\\C#-Programming\\Sources\\LEARNING_EF_CORE_WITH_SQLITE\\Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ali-Azimzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/BkOlPaJ5gmMaoDJ3mp4bT3UbkYOUlJcHQZHyZPxYnyNb9MTlyD/api": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
